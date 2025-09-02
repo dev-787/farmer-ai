@@ -1,9 +1,12 @@
 import React from 'react'
-import Home from './pages/Home'
+import { BrowserRouter } from 'react-router-dom'
+import MainRouter from './mainroutes/MainRouter'
 
 const App = () => {
   return (
-    <Home />
+    <BrowserRouter>
+      <MainRouter />
+    </BrowserRouter>
   )
 }
 
